@@ -1,0 +1,41 @@
+body{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 95%;
+    height: 65px;
+    margin: 10px;
+    font-size: xx-large;
+    border-radius: 20px;
+    padding: 10px;
+}
+div{
+    height: 63vh;
+    width: 95%;
+    border: 3px black solid;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: xx-large;
+    padding: 15px;
+    overflow: auto;
+}
+a{
+    color: red;
+    margin-bottom: 5px;
+}
+#send{
+    height: 40px;
+    width: 60%;
+    font-size: x-large;
+}
+#send:hover{
+    background-color: green;
+    cursor: pointer;
+}
+span{
+    margin-bottom: 10px;
+}
